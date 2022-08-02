@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.preheader {
+  padding: 5px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0px 0px 2.5px rgba(0, 0, 0, 0.5);
+  background-color: #41b883;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  padding: 0 300px;
+  background-color: rgb(246, 246, 246);
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+a {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  color: #7953d2;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/notepad-banner.jpg");
+  background-repeat: no-repeat;
+  background-position-y: -75px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  /* background: red; */
+}
+
+.products-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  margin-top: 50px;
+  padding: 0 276px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.view-products-banner-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-products-banner {
+  width: 1000px;
+  height: 200px;
+  text-align: center;
+  text-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 220px;
+  border-radius: 5px;
+  color: #fff;
+  background-image: url("../img/bush.jpg");
+  background-size: cover;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
