@@ -94,7 +94,7 @@ a:hover {
   /* background: red; */
 }
 
-.products-container {
+#products-container {
   width: 100%;
   display: flex;
   justify-content: flex-start;
