@@ -1,0 +1,2 @@
+Todos los contenidos de este repositorio, incluido el repositorio en sí, están disponibles para uso no comercial. 
+Developeando se reserva el derecho de tomar acciones en caso de que no se cumpla dicho término.
